@@ -157,11 +157,6 @@ const Layout = ({ pageTitle, children }) => {
 								</Link>
 							</li>
 							<li class="nav-item">
-								<Link to="/contact" className="nav-link">
-									Contact
-								</Link>
-							</li>
-							<li class="nav-item">
 								<Link to="/pricing" className="nav-link">
 									Pricing
 								</Link>
@@ -184,8 +179,13 @@ const Layout = ({ pageTitle, children }) => {
 								</Link>
 								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
 									<li>
-										<Link to="/blog/blog-3" className="dropdown-item">
-											Blog 3
+										<Link to="/blog_listing" className="dropdown-item">
+											Blog Listing
+										</Link>
+									</li>
+									<li>
+										<Link to="/blog/blog-1" className="dropdown-item">
+											Blog 1
 										</Link>
 									</li>
 									<li>
@@ -194,8 +194,8 @@ const Layout = ({ pageTitle, children }) => {
 										</Link>
 									</li>
 									<li>
-										<Link to="/blog/blog-1" className="dropdown-item">
-											Blog 1
+										<Link to="/blog/blog-3" className="dropdown-item">
+											Blog 3
 										</Link>
 									</li>
 								</ul>
@@ -213,16 +213,21 @@ const Layout = ({ pageTitle, children }) => {
 								</Link>
 								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
 									<li>
-										<Link to="/portfolio-overview" className="dropdown-item">
-											Portfolio Overview
+										<Link to="/portfolio_listing" className="dropdown-item">
+											Portfolio Listing
 										</Link>
 									</li>
 									<li>
-										<Link to="/portfolio-item" className="dropdown-item">
-											Portfolio Item
+										<Link to="/portfolio_details" className="dropdown-item">
+											Portfolio Details
 										</Link>
 									</li>
 								</ul>
+							</li>
+							<li class="nav-item">
+								<Link to="/contact" className="nav-link">
+									Contact
+								</Link>
 							</li>
 						</ul>
 					</div>

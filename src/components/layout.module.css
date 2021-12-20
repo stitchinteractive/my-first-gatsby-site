@@ -27,3 +27,7 @@
 	font-weight: 700;
 	margin: 3rem 0;
 }
+
+.bg-featured-blog {
+	background-image: url("https://dummyimage.com/700x350/343a40/6c757d");
+}
